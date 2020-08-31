@@ -5,7 +5,7 @@ import wordsToNumbers from "words-to-numbers";
 import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from "./styles.js";
 const alanKey =
-  "cd7f7d0846ddf1d71cd3f86d54b7142e2e956eca572e1d8b807a3e2338fdd0dc/stage";
+  ALAN_API_KEY;
 const App = () => {
   const classes = useStyles();
   const [newsArticles, setNewsArticles] = useState([]);
